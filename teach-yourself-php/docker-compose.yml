@@ -1,0 +1,14 @@
+version: '3'
+services:
+  nginx:
+    container_name: "nginx"
+    image: nginx:1.15.8
+    links: 
+      - php
+  php:
+    container_name: "php"
+    image: php:7.3-apache
+    ports: 
+      - '80:80'
+    volumes: 
+      - ./src:/var/www/html
