@@ -6,7 +6,11 @@ RUN apt-get update \
 git \
 zip \
 unzip \
-vim
+vim 
+
+RUN apt-get update \
+&& apt-get install -y libpq-dev \
+&& docker-php-ext-install pdo_mysql pdo_pgsql
 
 COPY --from=composer /usr/bin/composer /usr/bin/composer
 

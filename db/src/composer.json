@@ -1,0 +1,7 @@
+{
+    "name": "root/html",
+    "description": "connect db",
+    "require": {
+        "ext-pdo": "^8.0"
+    }
+}

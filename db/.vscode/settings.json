@@ -1,0 +1,9 @@
+{
+  /** スペース */
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  /** 改行 */
+  "files.eol": "\n",
+  // ファイル保存時に行末に改行を挿入
+  "files.insertFinalNewline": true,
+}
