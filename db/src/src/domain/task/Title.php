@@ -1,10 +1,12 @@
 <?php
 
+namespace domain\task;
+
 /**
- * タスク内容
+ * タスクタイトル
  */
-class Content {
-  public string $title;
+class Title {
+  public $title;
 
   public function __construct(string $title)
   {

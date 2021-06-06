@@ -6,7 +6,7 @@ namespace domain\common;
  * ID
  */
 class Id {
-  public int $id;
+  public $id;
 
   public function __construct(int $id)
   {
